@@ -32,12 +32,12 @@
   </head>
   <body>
     <!-- main home into div  -->
-    <div class="main-home-intro background-overlay">
+    <div id="home" class="main-home-intro background-overlay">
       <div class="hero-content inline align-centre justify-centre">
-        <h1 class="text-center">I am Aditya Singh</h1>
-        <p class="hero-child text-center">I'M A CREATIVE WEB DEVELOPER</p>
+        <h1 class="text-center">We Are Dictator's</h1>
+        <p class="hero-child text-center">We Are CREATIVE WEB DEVELOPER</p>
         <p class="text-center">
-          I STAND ON A SWEET SPOT WHERE DESIGN & CODE INTERSECTS.
+          We STAND ON A SWEET SPOT WHERE DESIGN & CODE INTERSECTS.
         </p>
       </div>
       <div class="arrow-wrapper home-arrow-down">
@@ -51,20 +51,24 @@
     <nav class="navbar">
       <div class="content">
         <div class="logo">
-          <a href="#">Aditya </a>
+          <a href="#">Dictator's</a>
         </div>
         <ul class="menu-list">
           <div class="icon cancel-btn">
             <i class="fas fa-times"></i>
           </div>
-          <li><a href="">home</a></li>
-          <li><a href="">intro</a></li>
-          <li><a href="">about </a></li>
-          <li><a href="">services</a></li>
-          <li><a href="">team</a></li>
-          <li><a href="">history</a></li>
-          <li><a href="">works </a></li>
-          <li><a href="">contact</a></li>
+          <li><a href="#home">home</a></li>
+          <li><a href="#intro-section">intro</a></li>
+          <li><a href="#about-us">about </a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#our-team">team</a></li>
+          <!-- <li><a href="">history</a></li> -->
+          <li>
+            <a href="https://github.com/its-princeyadav/personalprojects"
+              >works
+            </a>
+          </li>
+          <li><a href="#contact">contact</a></li>
         </ul>
         <div class="icon menu-btn">
           <i class="fas fa-bars"></i>
@@ -73,9 +77,9 @@
     </nav>
 
     <!-- our characterstics container  -->
-    <section class="developing-character-container">
+    <section id="intro-section" class="developing-character-container">
       <div class="welcome-heading-div">
-        <h2 class="text-center">HELLO & WELCOME to our world</h2>
+        <h2 class="text-center">HELLO & WELCOME TO OUT WORLD</h2>
         <p class="text-center">
           <span class="explore-tab">EXPLORE OUR WORLD</span>
         </p>
@@ -110,7 +114,7 @@
         <div class="service-col1 diamnd-container-wrapper">
           <div class="dimand-container">
             <div class="sub-dimand-container">
-              <p>Aditya</p>
+              <p>Dictator's</p>
             </div>
           </div>
         </div>
@@ -144,7 +148,7 @@
       </div>
     </section>
     <!-- parallax container  -->
-    <section class="parallax-sextion">
+    <section id="about-us" class="parallax-sextion">
       <!-- parallax div -->
       <div class="parallax-div background-dull">
         <p>
@@ -156,9 +160,9 @@
       </div>
     </section>
     <!-- types of work done by us   -->
-    <section class="developing-character-container">
+    <section id="services" class="developing-character-container">
       <div class="welcome-heading-div">
-        <h2 class="text-center">ABOUT ADITYA WORK</h2>
+        <h2 class="text-center">ABOUT OUR WORK</h2>
         <p class="text-center">
           <span class="explore-tab"
             >OUR GOAL IS TO BUILD PRODUCTS AND SERVICES</span
@@ -214,18 +218,18 @@
     <section class="progress-section-main-wrapper">
       <div class="progress-section-container">
         <div class="new-btn-wrap">
-          <button class="box">Hire Me Now</button>
+          <button class="box">Hire Us Now</button>
         </div>
         <div></div>
       </div>
     </section>
     <!-- our team card section -->
-    <section class="card-section-wrapper">
+    <section id="our-team" class="card-section-wrapper">
       <div class="welcome-heading-div">
-        <h2 class="text-center">MEET MY TEAM</h2>
+        <h2 class="text-center">MEET OUR TEAM</h2>
         <p class="text-center">
           <span class="explore-tab"
-            >THIS IS THE TEAM THAT IS WORKING WITH ME</span
+            >THIS IS THE TEAM THAT IS WORK TOGETHER</span
           >
         </p>
       </div>
@@ -235,39 +239,40 @@
             <div class="team-member-front">
               <div class="team-member-thumb">
                 <img
-                  src="{% static 'folio/assest/images/card1.jpg' %}"
+                  src="{% static 'folio/assest/images/Aditya1.jpg' %}"
                   class="img-res"
                   alt="website template image"
                 />
               </div>
-              <p class="team-member-front-name">DIANA JOHNSON</p>
+              <p class="team-member-front-name">ADITYA YADAV</p>
             </div>
             <div class="team-member-back">
               <div class="team-member-info">
-                <h3 class="team-member-back-name">DIANA JOHNSON</h3>
-                <p class="team-member-back-position">Web Designer</p>
+                <h3 class="team-member-back-name">ADITYA YADAV</h3>
+                <p class="team-member-back-position">Front-End Designer</p>
                 <p class="team-member-back-info">
-                  Curabitur nulla odio bibendum sit amet facilisis sed lobortis
-                  id, just Donec ollic itudin facil isis nulla. Donec eget
-                  ligula.
+                  A experience Frontend developer works with many raputated
+                  organization like Bhartiya tech , Sublime Solutions , Edneed .
+                  Or also have experienceof some personal projects and currently
+                  persuing BCA
                 </p>
                 <div class="social-icons small">
                   <a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.instagram.com/its_princeyadav/"
                     class="rectangle"
-                    ><i class="fa fa-facebook"></i></a
+                    ><i class="fa fa-instagram"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://twitter.com/adityas73623812"
                     class="rectangle"
                     ><i class="fa fa-twitter"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.link.com/in/aditya-singh-6028a3239/"
                     class="rectangle"
                     ><i class="fa fa-linkedin"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://mail.google.com/mail/u/0/#inbox"
                     class="rectangle"
-                    ><i class="fa fa-dribbble"></i
+                    ><i class="fa fa-envelope fa-xl"></i
                   ></a>
                 </div>
               </div>
@@ -279,39 +284,38 @@
             <div class="team-member-front">
               <div class="team-member-thumb">
                 <img
-                  src="{% static 'folio/assest/images/card2.jpg' %}"
+                  src="{% static 'folio/assest/images/Abhishek.jpg' %}"
                   class="img-res"
                   alt="website template image"
                 />
               </div>
-              <p class="team-member-front-name">Adam Henry</p>
+              <p class="team-member-front-name">ABHISHEK SIGH</p>
             </div>
             <div class="team-member-back">
               <div class="team-member-info">
-                <h3 class="team-member-back-name">Adam Henry</h3>
-                <p class="team-member-back-position">Web Designer</p>
+                <h3 class="team-member-back-name">ABHISHEK SIGH</h3>
+                <p class="team-member-back-position">Cyber Security</p>
                 <p class="team-member-back-info">
-                  Curabitur nulla odio bibendum sit amet facilisis sed lobortis
-                  id, just Donec ollic itudin facil isis nulla. Donec eget
-                  ligula.
+                  A experinced cyber Security works with some organization and
+                  curently persuing BCA
                 </p>
                 <div class="social-icons small">
                   <a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.instagram.com/theabhisingh12/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
                     class="rectangle"
-                    ><i class="fa fa-facebook"></i></a
+                    ><i class="fa fa-instagram"></i></a
                   ><a
                     href="https://www.free-css.com/free-css-templates"
                     class="rectangle"
                     ><i class="fa fa-twitter"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.linkedin.com/in/abhishekkr8709/?fbclid=PAAaaYgY3tSdtnrsrvJqeMELF_7xHEK25aGH9-_qIIulBaQ_byNOWTEplfrl4"
                     class="rectangle"
                     ><i class="fa fa-linkedin"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://mail.google.com/mail/u/0/#inbox"
                     class="rectangle"
-                    ><i class="fa fa-dribbble"></i
+                    ><i class="fa fa-envelope"></i
                   ></a>
                 </div>
               </div>
@@ -323,39 +327,38 @@
             <div class="team-member-front">
               <div class="team-member-thumb">
                 <img
-                  src="{% static 'folio/assest/images/card3.jpg' %}"
+                  src="{% static 'folio/assest/images/Ritesh.jpg' %}"
                   class="img-res"
                   alt="website template image"
                 />
               </div>
-              <p class="team-member-front-name">ROBERT DOE</p>
+              <p class="team-member-front-name">RITESH YADAV</p>
             </div>
             <div class="team-member-back">
               <div class="team-member-info">
-                <h3 class="team-member-back-name">ROBERT DOE</h3>
-                <p class="team-member-back-position">Mobile APP Developer</p>
+                <h3 class="team-member-back-name">RITESH YADAV</h3>
+                <p class="team-member-back-position">Back-End Developer</p>
                 <p class="team-member-back-info">
-                  Curabitur nulla odio bibendum sit amet facilisis sed lobortis
-                  id, just Donec ollic itudin facil isis nulla. Donec eget
-                  ligula.
+                  A experinced cyber Security works with some organization ,
+                  also have some personal projects and curently persuing BCA
                 </p>
                 <div class="social-icons small">
                   <a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.instagram.com/riteshydv_1906/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
                     class="rectangle"
-                    ><i class="fa fa-facebook"></i></a
+                    ><i class="fa fa-instagram"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://twitter.com/MadaraU55753580?t=U1bPl0qe3lqCTagWMCXARw&s=09"
                     class="rectangle"
                     ><i class="fa fa-twitter"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.linkedin.com/in/ritesh-yadav-b375a7252/"
                     class="rectangle"
                     ><i class="fa fa-linkedin"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://mail.google.com/mail/u/0/#inbox"
                     class="rectangle"
-                    ><i class="fa fa-dribbble"></i
+                    ><i class="fa fa-envelope"></i
                   ></a>
                 </div>
               </div>
@@ -367,39 +370,38 @@
             <div class="team-member-front">
               <div class="team-member-thumb">
                 <img
-                  src="{% static 'folio/assest/images/card4.jpg' %}"
+                  src="{% static 'folio/assest/images/Lavjeet.jpg' %}"
                   class="img-res"
                   alt="website template image"
                 />
               </div>
-              <p class="team-member-front-name">JULIA BROWN</p>
+              <p class="team-member-front-name">LAVJEET SINGH</p>
             </div>
             <div class="team-member-back">
               <div class="team-member-info">
-                <h3 class="team-member-back-name">JULIA BROWN</h3>
+                <h3 class="team-member-back-name">LAVJEET SINGH</h3>
                 <p class="team-member-back-position">Seo Specialist</p>
                 <p class="team-member-back-info">
-                  Curabitur nulla odio bibendum sit amet facilisis sed lobortis
-                  id, just Donec ollic itudin facil isis nulla. Donec eget
-                  ligula.
+                  Experienced Seo Specialist works on Google Adsence , Digital
+                  Marketing , Optimization or currently persuing BCA
                 </p>
                 <div class="social-icons small">
                   <a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.instagram.com/lavjeetsingh01/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
                     class="rectangle"
-                    ><i class="fa fa-facebook"></i></a
+                    ><i class="fa fa-instagram"></i></a
                   ><a
                     href="https://www.free-css.com/free-css-templates"
                     class="rectangle"
                     ><i class="fa fa-twitter"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://www.linkedin.com/in/lavjeet-singh-348b54251"
                     class="rectangle"
                     ><i class="fa fa-linkedin"></i></a
                   ><a
-                    href="https://www.free-css.com/free-css-templates"
+                    href="https://mail.google.com/mail/u/0/#inbox"
                     class="rectangle"
-                    ><i class="fa fa-dribbble"></i
+                    ><i class="fa fa-envelope"></i
                   ></a>
                 </div>
               </div>
@@ -409,20 +411,20 @@
       </div>
     </section>
     <!-- our form section  -->
-    <section class="contact-from-section">
+    <section id="contact" class="contact-from-section">
       <div class="welcome-heading-div">
-        <h2 class="text-center">CONTACT ADITYA</h2>
+        <h2 class="text-center">CONTACT US</h2>
         <p class="text-center">
-          <span class="explore-tab">HERE I AM</span>
+          <span class="explore-tab">HERE WE ARE</span>
         </p>
       </div>
       <form
-      action="/"
-      name="myForm "
-      method="post"
-      onsubmit="return validateForm()"
+        action="/"
+        name="myForm "
+        method="post"
+        onsubmit="return validateForm()"
       >
-      {% csrf_token %}
+        {% csrf_token %}
         <div class="form-wrapper">
           <div>
             <input
@@ -433,7 +435,9 @@
               placeholder="Name "
               required
             />
-            {% comment %} <p class="form-error-message">*this is an error</p> {% endcomment %}
+            {% comment %}
+            <p class="form-error-message">*this is an error</p>
+            {% endcomment %}
           </div>
           <div>
             <input
@@ -444,7 +448,9 @@
               placeholder="Email "
               required
             />
-            {% comment %} <p class="form-error-message">*this is an error</p> {% endcomment %}
+            {% comment %}
+            <p class="form-error-message">*this is an error</p>
+            {% endcomment %}
           </div>
           <div>
             <input
@@ -455,7 +461,9 @@
               name="fphone"
               required
             />
-            {% comment %} <p class="form-error-message">*this is an error</p> {% endcomment %}
+            {% comment %}
+            <p class="form-error-message">*this is an error</p>
+            {% endcomment %}
           </div>
         </div>
         <div class="your-message-section">
