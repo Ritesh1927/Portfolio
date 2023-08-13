@@ -522,6 +522,7 @@
   margin: auto;
   max-width: 100%;
   width: 74%;
+  padding-top: 60px;
 }
 .cards-grid-section {
   display: grid;
